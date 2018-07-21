@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Pipeline\SteeringPipeline.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline\SteeringPipeline_Implementation.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviours.cpp" />
+    <ClCompile Include="BehaviourTree\BehaviorTree.cpp">
+      <Filter>BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnedWorldData.cpp" />
+    <ClCompile Include="EliteNavigation\Pathfinders\EAStarPathfinder.cpp">
+      <Filter>EliteNavigation\Pathfinders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Pipeline\SteeringPipeline_Implementation.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline\SteeringPipeline.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviours.h" />
+    <ClInclude Include="SteeringHelpers.h" />
+    <ClInclude Include="BehaviourTree\Behaviors.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree\BehaviorTree.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree\Blackboard.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="LearnedWorldData.h" />
+    <ClInclude Include="EliteNavigation\ENavigation.h">
+      <Filter>EliteNavigation</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteNavigation\Graphs\EConnections.h">
+      <Filter>EliteNavigation</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteNavigation\Graphs\EGraph.h">
+      <Filter>EliteNavigation\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteNavigation\EHeuristicFunctions.h">
+      <Filter>EliteNavigation\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteNavigation\Graphs\ENode.h">
+      <Filter>EliteNavigation\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteNavigation\Pathfinders\EPathfinder.h">
+      <Filter>EliteNavigation\Pathfinders</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteNavigation\Pathfinders\EAStarPathfinder.h">
+      <Filter>EliteNavigation\Pathfinders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Week5_A_Pathfinding\Week_01_Introduction_Kinematic_Movement_Students\source\framework\EliteCommon\CoreDefines.h">
+      <Filter>EliteCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Week5_A_Pathfinding\Week_01_Introduction_Kinematic_Movement_Students\source\framework\EliteCommon\EMemoryPool.h">
+      <Filter>EliteCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Week5_A_Pathfinding\Week_01_Introduction_Kinematic_Movement_Students\source\framework\EliteCommon\EMemoryPoolHelpers.h">
+      <Filter>EliteCommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Pipeline">
+      <UniqueIdentifier>{82766ddb-abbe-463a-986d-7367cf06c1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviourTree">
+      <UniqueIdentifier>{f37fdb6a-a68a-4e72-b1cd-975147ba2771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InfluenceMap">
+      <UniqueIdentifier>{e460682c-d9e7-4193-9b62-f6c905c2928c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EliteNavigation">
+      <UniqueIdentifier>{4e7d82d3-7e37-48ba-ab2b-a12e48366fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EliteNavigation\Graphs">
+      <UniqueIdentifier>{e882a665-69c9-4e6c-8cc5-d297e3ef28e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EliteNavigation\Pathfinders">
+      <UniqueIdentifier>{2646bde9-d278-4ff0-bd3d-e8745519adec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EliteCommon">
+      <UniqueIdentifier>{5a9b9a67-53a9-41d0-9967-e4136b345009}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
